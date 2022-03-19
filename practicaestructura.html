@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+	<head id="4">
+		<title>Ejercicios prácticos HTML5</title>
+		<meta charset="utf-8">
+	</head>
+	<body style="padding-left: 1cm; padding-bottom: 1cm;">
+		<h2>Utilizar div y span:</h2>
+		
+		<p>Elementos de bloque y línea</p>
+		
+		<div style="color:blue">
+			<h3>Encabezado de tipo 3</h3>
+			<p>Párrafo</p>
+		</div>
+		
+		<div>
+			<p>Párrafo con formato <span style="color: blue">aplicado</span> a un elemento en línea</p>
+		</div>
+		<br> <br>
+		<div>
+			<h2>Parrafos con mismo id:</h2>
+			
+			<p id="5">Parrafo 1</p>
+			<p id="5">Parrafo 2</p>
+		</div>
+		<br>
+		<div>
+			<style>
+				.tooltip {
+				position: relative;
+				display: inline-block;
+				border-bottom: 1px dotted black;
+				}
+				
+				.tooltip .tooltiptext {
+				visibility: hidden;
+				width: 120px;
+				background-color: #555;
+				color: #fff;
+				text-align: center;
+				border-radius: 6px;
+				padding: 5px 0;
+				position: absolute;
+				z-index: 1;
+				bottom: 125%;
+				left: 50%;
+				margin-left: -60px;
+				opacity: 0;
+				transition: opacity 0.3s;
+				}
+				
+				.tooltip .tooltiptext::after {
+				content: "";
+				position: absolute;
+				top: 100%;
+				left: 50%;
+				margin-left: -5px;
+				border-width: 5px;
+				border-style: solid;
+				border-color: #555 transparent transparent transparent;
+				}
+				
+				.tooltip:hover .tooltiptext {
+				visibility: visible;
+				opacity: 1;
+				}
+				</style>
+				
+				
+				<h2>Tooltip</h2>
+				<p>Mueve el raton por aqui:</p>
+				
+				<div class="tooltip">sobre aqui
+				<span class="tooltiptext">Tooltip text</span>
+				</div>
+		</div>			
+		<br>
+		<div>
+			<h2>Linea continua:</h2>
+			<p>Madrid capital de España</p>
+			<hr>
+		</div>
+
+		
+
+
+	</body>
+</html>
