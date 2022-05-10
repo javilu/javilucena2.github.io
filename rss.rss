@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<item>
+<title>Cordoba patrimonio</title>
+<link>https://javilu.github.io/javilucena2.github.io/index2.html#2</link>
+<description></description>
+</item>
+<item>
+<title>Mezquita de Córdoba</title>
+<link>https://javilu.github.io/javilucena2.github.io/mezquita.html#m1</link>
+<description></description>
+</item>
+  <item>
+<title>Casco Histórico</title>
+<link>https://javilu.github.io/javilucena2.github.io/cascohistorico.html#c1</link>
+<description></description>
+</item>
+   <item>
+<title>Los patios</title>
+<link>https://javilu.github.io/javilucena2.github.io/patios.html#p1</link>
+<description></description>
+</item>
+  <item>
+<title>Medina Azahara</title>
+<link>https://javilu.github.io/javilucena2.github.io/medina.html#m2</link>
+<description></description>
+</item>
+</channel>
+</rss>
