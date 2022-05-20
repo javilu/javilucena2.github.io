@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<style>
+    body {
+    display: grid;
+    grid-template-areas: "nav header header" "nav article article" "nav ads ads" "nav footer footer";
+    grid-template-rows: 60px 400px 60px 80px;
+    grid-template-columns: 15% 85%;
+    grid-gap: 10px;
+}
+
+header,
+nav,
+article,
+aside,
+footer {
+    background-color: rgb(0, 228, 245);
+    padding: 10px;
+}
+
+#header {
+    grid-area: header;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#article {
+    grid-area: article;
+}
+
+#ads {
+    grid-area: ads;
+}
+
+#footer {
+    grid-area: footer;
+}
+</style>
+
+<head>
+    <title>Ejercicios Unidad 5</title>
+    <meta charset="utf-8">
+    <link href="./ejc3.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        Header
+    </header>
+    <article id="article">
+        Article
+    </article>
+    <nav id="nav">
+        Nav
+    </nav>
+    <aside id="ads">
+        Ads
+    </aside>
+    <footer id="footer">
+        Footer
+    </footer>
+
+</body>
+
+</html>

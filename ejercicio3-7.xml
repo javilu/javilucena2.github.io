@@ -1,0 +1,11 @@
+<personas>
+    <persona>
+        <nombre>Yo</nombre>
+        <mayor_de_edad/>
+        <ciudad>Cordoba</ciudad>
+        </persona>
+        <persona>
+        <nombre>Dora</nombre>
+        <ciudad>Colombia</ciudad>
+    </persona>
+</personas>

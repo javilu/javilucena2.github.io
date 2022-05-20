@@ -1,0 +1,7 @@
+<etiqueta>
+<nombre>Pepe</nombre>
+<calle>calle ronda</calle>
+<pais>españa</pais>
+<codigo>18465</codigo>
+</etiqueta>
+<!-- falta el doctype y la interrogacion en ciudad para que sea 0 o 1 ya que no aparece -->
